@@ -31,7 +31,7 @@ La première phase a consisté à lancer Medusa et à identifier les options dis
 python medusa.py --help
 ```
 
-![Aide Medusa et lancement](Lab/medusa_help.png)
+![Aide Medusa et lancement](Lab/medusa%20help.png)
 
 Medusa charge 124 modules au démarrage. Les options principales utilisées dans ce lab sont :
 
@@ -44,7 +44,7 @@ Medusa charge 124 modules au démarrage. Les options principales utilisées dans
 Medusa est ensuite lancé sans argument pour entrer en mode interactif. Il liste les appareils disponibles et invite à sélectionner le device cible.
 
 
-![Lancement de Medusa et sélection du device](Lab/lancement_medusa.png)
+![Lancement de Medusa et sélection du device](Lab/lancement%20medusa.png)
 
 ---
 
@@ -65,7 +65,7 @@ Depuis la console Medusa, une recherche des modules disponibles pour la détecti
 (socket) medusa➤ search root
 ```
 
-![Recherche et chargement du module root detection](Lab/search_root.png)
+![Recherche et chargement du module root detection](Lab/search%20root.png)
 
 ---
 
@@ -74,7 +74,7 @@ Depuis la console Medusa, une recherche des modules disponibles pour la détecti
 L'option `-f` est utilisée pour spawner l'application directement depuis Medusa. Frida s'injecte avant que l'application n'initialise ses contrôles de sécurité, ce qui est déterminant pour neutraliser les vérifications effectuées au démarrage.
 
 
-![Injection et session Medusa active](Lab/run_owasp.png)
+![Injection et session Medusa active](Lab/run%20owasp.png)
 
 ---
 
@@ -82,7 +82,7 @@ L'option `-f` est utilisée pour spawner l'application directement depuis Medusa
 
 Grâce à l'instrumentation, l'application démarre de manière stable. L'alerte de sécurité est interceptée en arrière-plan, laissant l'interface utilisateur pleinement accessible.
 
-![Bypass confirmé — interface débloquée](Lab/bypass_confirmed.png)
+![Bypass confirmé — interface débloquée](Lab/bypass%20confirmed.png)
 
 > L'application **Uncrackable Level 2** s'ouvre normalement et le champ de saisie est accessible. Le bypass est validé.
 
